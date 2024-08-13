@@ -17,7 +17,7 @@ export class OpenRouterHandler implements ApiHandler {
 		this.options = options
 		this.client = new OpenAI({
 			baseURL: "https://openrouter.ai/api/v1",
-			apiKey: this.options.openRouterApiKey,
+			apiKey: this.options.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,
 			defaultHeaders: {
 				"HTTP-Referer": "https://github.com/saoudrizwan/claude-dev", // Optional, for including your app on openrouter.ai rankings.
 				"X-Title": "claude-dev", // Optional. Shows in rankings on openrouter.ai.
